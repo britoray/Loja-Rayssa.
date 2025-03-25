@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(243, 100, 224);
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    
+
+    #logo{
+        width: 150px; 
+        height: auto;
+    }
+}
+
+section{
+    display: flex;
+}
+.areaTexto{
+    width:50vw;
+    height:90vh;
+    background-color: rgb(176, 17, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.areaImagem{
+    width:50vw;
+    height:90vh;
+    background-color: rgb(141, 155, 238);
+}
+footer{
+    width:100vw;
+    height:6vw;
+    background-color: rgb(201, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100px ;
+    width: 100vw;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+#logo{
+    width: 150px; 
+    height:auto;
+}
+section{
+    display: flex;
+}
+.areaTexto{
+    width: 50vw;
+    height:90vh;
+    background-color: rgb(138, 138, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
